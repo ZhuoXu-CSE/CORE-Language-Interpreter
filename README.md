@@ -23,23 +23,23 @@ CFG of CORE Language:
 
 * \<prog> ::= program \<decl-seq> begin \<stmt-seq> end 
 * \<decl-seq> ::= \<decl> | \<decl>\<decl-seq> 
-\<stmt-seq> ::= \<stmt> | \<stmt>\<stmt-seq> 
-\<decl> ::= int \<id-list> ; | \<decl-func> 
-\<decl-func> ::= \<id> ( \<id-list> ) begin \<stmt-seq> endfunc ; 
-\<id-list> ::= \<id> | \<id> , \<id-list>
-\<stmt> ::= \<assign> | \<if> | \<loop> | \<in> | \<out> | \<func> 
-\<func> ::= begin \<id> ( \<id-list> ) ;
-\<assign> ::= \<id> = \<expr> ;
-\<in> ::= input \<id> ;
-\<out> ::= output \<expr> ;
-\<if> ::= if \<cond> then \<stmt-seq> endif ;| if \<cond> then \<stmt-seq> else \<stmt-seq> endif ;
-\<loop> ::= while \<cond> begin \<stmt-seq> endwhile ; 
-\<cond> ::= \<cmpr> | ! ( \<cond> )| \<cmpr> or \<cond>
-\<cmpr> ::= \<expr> == \<expr> | \<expr> \< \<expr> | \<expr> \<= \<expr>
-\<expr> ::= \<term> | \<term> + \<expr> | \<term> – \<expr> 
-\<term> ::= \<factor> | \<factor> * \<term>
-\<factor> ::= \<const> | \<id> | ( \<expr> )
-\<const> ::= 0 | 1 | 2 |  ... | 1023
-\<id> ::= \<letter> | \<id>\<letter> | \<id>\<digit>
-\<letter> ::= a | b | ... | z | A | B | ... | Z
-\<digit> ::= 1 | 2 | ... | 9 
+* \<stmt-seq> ::= \<stmt> | \<stmt>\<stmt-seq> 
+* \<decl> ::= int \<id-list> ; | \<decl-func> 
+* \<decl-func> ::= \<id> ( \<id-list> ) begin \<stmt-seq> endfunc ; 
+* \<id-list> ::= \<id> | \<id> , \<id-list>
+* \<stmt> ::= \<assign> | \<if> | \<loop> | \<in> | \<out> | \<func> 
+* \<func> ::= begin \<id> ( \<id-list> ) ;
+* \<assign> ::= \<id> = \<expr> ;
+* \<in> ::= input \<id> ;
+* \<out> ::= output \<expr> ;
+* \<if> ::= if \<cond> then \<stmt-seq> endif ;| if \<cond> then \<stmt-seq> else \<stmt-seq> endif ;
+* \<loop> ::= while \<cond> begin \<stmt-seq> endwhile ; 
+* \<cond> ::= \<cmpr> | ! ( \<cond> )| \<cmpr> or \<cond>
+* \<cmpr> ::= \<expr> == \<expr> | \<expr> \< \<expr> | \<expr> \<= \<expr>
+* \<expr> ::= \<term> | \<term> + \<expr> | \<term> – \<expr> 
+* \<term> ::= \<factor> | \<factor> * \<term>
+* \<factor> ::= \<const> | \<id> | ( \<expr> )
+* \<const> ::= 0 | 1 | 2 |  ... | 1023
+* \<id> ::= \<letter> | \<id>\<letter> | \<id>\<digit>
+* \<letter> ::= a | b | ... | z | A | B | ... | Z
+* \<digit> ::= 1 | 2 | ... | 9 
