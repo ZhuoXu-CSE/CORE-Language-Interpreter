@@ -20,7 +20,7 @@ This should show an error message “ERROR: ...” in file bad2.out.
 
 
 CFG of CORE Language
-** <prog> ::= program <decl-seq> begin <stmt-seq> end <decl-seq> ::= <decl> | <decl><decl-seq>
+\*<prog> ::= program <decl-seq> begin <stmt-seq> end <decl-seq> ::= <decl> | <decl><decl-seq>
 <stmt-seq> ::= <stmt> | <stmt><stmt-seq>
 <decl> ::= int <id-list> ; | <decl-func>
 <decl-func> ::= <id> ( <id-list> ) begin <stmt-seq> endfunc ; <id-list> ::= <id> | <id> , <id-list>
@@ -36,4 +36,4 @@ CFG of CORE Language
 <const> ::= 0 | 1 | 2 | ... | 1023
 <id> ::= <letter> | <id><letter> | <id><digit>
 <letter> ::= a | b | ... | z | A | B | ... | Z
-<digit> ::= 1 | 2 | ... | 9 **
+<digit> ::= 1 | 2 | ... | 9 */
