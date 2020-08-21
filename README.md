@@ -19,10 +19,10 @@ For tests containing invalid inputs,
 This should show an error message “ERROR: ...” in file bad2.out.
 
 
-CFG of CORE Language. 
-<prog> ::= program <decl-seq> begin <stmt-seq> end <decl-seq> ::= <decl> | <decl><decl-seq>. 
-<stmt-seq> ::= <stmt> | <stmt><stmt-seq>. 
-<decl> ::= int <id-list> ; | <decl-func>. 
+CFG of CORE Language
+> <prog> ::= program <decl-seq> begin <stmt-seq> end <decl-seq> ::= <decl> | <decl><decl-seq>. 
+> <stmt-seq> ::= <stmt> | <stmt><stmt-seq>. 
+> <decl> ::= int <id-list> ; | <decl-func>. 
 <decl-func> ::= <id> ( <id-list> ) begin <stmt-seq> endfunc ; <id-list> ::= <id> | <id> , <id-list>.
 <stmt> ::= <assign> | <if> | <loop> | <in> | <out> | <func> <func> ::= begin <id> ( <id-list> ) ;.
 <assign> ::= <id> = <expr> ;.
