@@ -1,4 +1,4 @@
-An interpreter for a simple functional language called PLAN. The was written in Scheme.
+An interpreter for a simple functional language called PLAN. The interpreter was written in Scheme.
 A PLAN program is a list, as defined by the following grammar:
 ⟨P rogram⟩ ::= ( prog ⟨Expr⟩ )
 ⟨Expr⟩ ::= ⟨I d⟩
