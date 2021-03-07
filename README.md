@@ -3,7 +3,7 @@
 CORE Language Interpreter implemented by C
 
 Input to the interpreter
-Input will come from two ASCII text files, the names of these files will be given as com- mand line arguments to the interpreter. The first file contains the program to be executed. During execution each Core input statement in the first file will read the next data value from the second file. Since Core has only integer variables, the input values in the second file will be integers, separated by spaces and/or tabs and/or newlines.
+Input will come from two ASCII text files, the names of these files will be given as command line arguments to the interpreter. The first file contains the program to be executed. During execution each Core input statement in the first file will read the next data value from the second file. Since Core has only integer variables, the input values in the second file will be integers, separated by spaces and/or tabs and/or newlines.
 
 Testing the interpreter
 Some test cases are provided. For each test case; (e.g. t4) there are three files (e.g. t4.code, t4.data, and t4.expected). For the tests containing valid inputs, if you compile your project with the command “gcc main.c” so it generates an executable “a.out” you need to do something like
